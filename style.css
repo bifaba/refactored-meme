@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  /* Hintergrundbild und Eigenschaften */
+  background-image: url(./Bilder/mudassir-ali-NZ0HxSy55hY-unsplash.jpg);
+  background-size: cover; /* Das Bild wird proportional skaliert, um den gesamten Bereich zu decken */
+  background-position: center; /* Das Bild wird in der Mitte zentriert */
+  background-repeat: no-repeat; /* Das Bild wird nicht wiederholt */
+  background-attachment: fixed; /* Das Bild bleibt fest, wenn die Seite gescrollt wird */
+}
+
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  z-index: 2;
+}
+
+nav {
+  background-color: #34495e;
+  min-width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #2c3e50;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+section a :hover {
+    box-shadow: 0 0 8px rgba(80, 80, 80, 0.7);
+    /* opacity: 0.9; */
+    /* transform: scale(1.1); */
+}
+
+section img {
+    border-radius: 8px;
+}
+
+h1 {
+  color: white;
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 14px;
+  font-family: "Kenia", sans-serif;
+  font-size: 4em;
+  text-shadow: -3px -3px 1px #fff, 3px -3px 1px #fff, -3px 3px 1px #fff,
+    3px 3px 1px #fff;
+  position: relative;
+  color: rgb(2, 78, 190)
+}
+h2 {
+  color: #39587c;
+}
+
+address {
+  margin-top: 20px;
+  font-style: normal;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #2c3e50;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
